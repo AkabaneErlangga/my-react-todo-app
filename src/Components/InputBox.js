@@ -18,6 +18,7 @@ const InputBox = (props) => {
       type="text"
       className="form-control add-todo"
       placeholder="Add New"
+      onKeyUp={handleKeyUpEvent}
       onChange={handleChangeEvent}
       value={value}
     />
